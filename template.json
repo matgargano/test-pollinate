@@ -1,16 +1,10 @@
 {
-  "name": "webapp",
-  "discard": [
-    "README.md",
-    "template.json"
-  ],
+  "name": "test-pollinate",
   "parse": [
-    "README",
+    "foo",
     "Dockerfile"
   ],
-  "move": [
-    { "README": "PLEASE-README.md" },
-  ],
+  "name": "Default name",
   "container": "debian",
   "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 }
