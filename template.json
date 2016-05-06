@@ -1,0 +1,16 @@
+{
+  "name": "webapp",
+  "discard": [
+    "README.md",
+    "template.json"
+  ],
+  "parse": [
+    "README",
+    "Dockerfile"
+  ],
+  "move": [
+    { "README": "PLEASE-README.md" },
+  ],
+  "container": "debian",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+}
